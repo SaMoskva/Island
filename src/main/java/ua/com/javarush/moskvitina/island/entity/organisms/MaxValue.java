@@ -1,4 +1,4 @@
-package ua.com.javarush.moskvitina.island.entity;
+package ua.com.javarush.moskvitina.island.entity.organisms;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

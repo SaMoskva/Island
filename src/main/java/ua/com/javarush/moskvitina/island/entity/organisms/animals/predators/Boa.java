@@ -1,7 +1,7 @@
 package ua.com.javarush.moskvitina.island.entity.organisms.animals.predators;
 
 import ua.com.javarush.moskvitina.island.abstraction.annotation.SpeciesData;
-import ua.com.javarush.moskvitina.island.entity.MaxValue;
+import ua.com.javarush.moskvitina.island.entity.organisms.MaxValue;
 
 @SpeciesData(name = "Удав", icon = "\uD83D\uDC0D", maxWeight = 15, maxQuantityOnCell = 30, maxSpeed = 1,
         maxFoodNeeded = 3)

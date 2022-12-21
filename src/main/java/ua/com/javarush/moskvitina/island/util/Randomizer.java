@@ -16,7 +16,7 @@ public class Randomizer {
         return Math.round(ThreadLocalRandom.current().nextDouble(min, max + 1) * 100.0) / 100.0;
     }
 
-    public static boolean get(int percentProbably) {
+    public static boolean getRandomValue(int percentProbably) {
         return getRandomValue(0, 100) < percentProbably;
     }
 

@@ -1,13 +1,14 @@
-package ua.com.javarush.moskvitina.island;
+package ua.com.javarush.moskvitina.island.config;
 
 import ua.com.javarush.moskvitina.island.abstraction.annotation.SpeciesData;
-import ua.com.javarush.moskvitina.island.entity.MaxValue;
+import ua.com.javarush.moskvitina.island.entity.organisms.MaxValue;
 import ua.com.javarush.moskvitina.island.entity.organisms.Organism;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;
 
-public class God {
+public class EntityScanner {
+    private EntityScanner(){};
 
     public static Organism[] createAnimal(Class<?>[] TYPES) {
         Organism[] organisms = new Organism[TYPES.length];

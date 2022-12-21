@@ -1,7 +1,7 @@
 package ua.com.javarush.moskvitina.island.entity.organisms.animals.herbivorous;
 
 import ua.com.javarush.moskvitina.island.abstraction.annotation.SpeciesData;
-import ua.com.javarush.moskvitina.island.entity.MaxValue;
+import ua.com.javarush.moskvitina.island.entity.organisms.MaxValue;
 
 @SpeciesData(name = "Кролик", icon = "\uD83D\uDC07", maxWeight = 2, maxQuantityOnCell = 150, maxSpeed = 2,
         maxFoodNeeded = 0.45)

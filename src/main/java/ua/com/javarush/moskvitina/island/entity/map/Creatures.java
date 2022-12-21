@@ -17,7 +17,7 @@ public class Creatures extends LinkedHashMap<String, Organisms>{
     }
 
     public void randomRotate(){
-        if (Randomizer.get(PERCENT_RANDOM_ROTATE) && size() > 1) {
+        if (Randomizer.getRandomValue(PERCENT_RANDOM_ROTATE) && size() > 1) {
             synchronized (this) {
                 Set<Map.Entry<String, Organisms>> entrySet = entrySet();
                 var iterator = entrySet.iterator();

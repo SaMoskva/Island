@@ -3,7 +3,7 @@ package ua.com.javarush.moskvitina.island.entity.organisms.animals;
 import ua.com.javarush.moskvitina.island.abstraction.entity.Eating;
 import ua.com.javarush.moskvitina.island.abstraction.entity.Movable;
 import ua.com.javarush.moskvitina.island.abstraction.entity.Reproducible;
-import ua.com.javarush.moskvitina.island.entity.MaxValue;
+import ua.com.javarush.moskvitina.island.entity.organisms.MaxValue;
 import ua.com.javarush.moskvitina.island.entity.organisms.Organism;
 
 public abstract class Animal
@@ -16,15 +16,15 @@ public abstract class Animal
     @Override
     public boolean eat() {
         return true;
-    }
+    } //TODO
 
     @Override
     public boolean move() {
         return true;
-    }
+    } //TODO
 
     @Override
     public boolean spawn() {
         return true;
-    }
+    } //TODO
 }
